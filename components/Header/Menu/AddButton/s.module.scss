@@ -1,0 +1,5 @@
+@import '../../../../styles/mixins.module.scss';
+
+.menu_item {
+  @include menu_button;
+}

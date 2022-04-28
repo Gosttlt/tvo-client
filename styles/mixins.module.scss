@@ -1,0 +1,28 @@
+@mixin black_shadow {
+  box-shadow: rgb(52, 52, 52) 1px 3px 12px 0px;
+}
+
+@mixin menu_button {
+  width: inherit;
+  height: 100%;
+  padding: 15px 20px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0;
+  z-index: 30;
+
+  &:hover {
+    background: #fff;
+    transition: 0.3s;
+    color: black;
+    div {
+      display: block;
+    }
+  }
+
+  &:active {
+    background: rgb(186, 241, 225);
+  }
+}

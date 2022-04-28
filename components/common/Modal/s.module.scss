@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background: #0000006b;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}
+.content {
+  width: min-content;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  top: 50%;
+  align-items: center;
+  left: 50%;
+  justify-content: space-around;
+  background: #fff;
+  border: 1px solid #5e5e5e;
+  transform: translate(-50%, -50%);
+}
+.close_button {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  cursor: pointer;
+}

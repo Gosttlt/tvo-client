@@ -1,0 +1,10 @@
+@import '../../../../styles/mixins.module.scss';
+
+.wrapper {
+  @include menu_button;
+}
+
+.item_box {
+  justify-content: center;
+  display: flex;
+}

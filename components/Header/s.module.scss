@@ -1,0 +1,9 @@
+@import '../../styles/mixins.module.scss';
+.wrapper {
+  background: #000;
+  font-weight: bold;
+}
+
+.menu_item {
+  @include menu_button;
+}
